@@ -25,15 +25,30 @@
         <action
             android:id="@+id/action_signupFragment_to_signUp1Fragment"
             app:destination="@id/signUp1Fragment" />
+        <action
+            android:id="@+id/action_signupFragment_to_signinFragment2"
+            app:destination="@id/signinFragment2" />
     </fragment>
     <fragment
         android:id="@+id/signUp1Fragment"
         android:name="com.codiyapa.notesharecom.SignUp1Fragment"
         android:label="fragment_sign_up1"
-        tools:layout="@layout/fragment_sign_up1" />
+        tools:layout="@layout/fragment_sign_up1" >
+        <action
+            android:id="@+id/action_signUp1Fragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.codiyapa.notesharecom.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/signinFragment2"
+        android:name="com.codiyapa.notesharecom.SigninFragment"
+        android:label="SigninFragment" >
+        <action
+            android:id="@+id/action_signinFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
 </navigation>
