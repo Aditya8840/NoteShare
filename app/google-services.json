@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20435428393",
+    "project_id": "noteshare-com",
+    "storage_bucket": "noteshare-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20435428393:android:428f56f070ea0a7b772838",
+        "android_client_info": {
+          "package_name": "com.codiyapa.notesharecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20435428393-9aki6l7ghpmvjuqth3rmbjo62iiim4hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHfq26rd9P6ZISzHgdkTKM93yqQAjt6pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20435428393-9aki6l7ghpmvjuqth3rmbjo62iiim4hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
