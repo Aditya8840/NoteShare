@@ -9,10 +9,31 @@
         android:id="@+id/splashFragment"
         android:name="com.codiyapa.notesharecom.SplashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signupFragment"
         android:name="com.codiyapa.notesharecom.SignupFragment"
         android:label="fragment_signup"
-        tools:layout="@layout/fragment_signup" />
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_signUp1Fragment"
+            app:destination="@id/signUp1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp1Fragment"
+        android:name="com.codiyapa.notesharecom.SignUp1Fragment"
+        android:label="fragment_sign_up1"
+        tools:layout="@layout/fragment_sign_up1" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.codiyapa.notesharecom.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
