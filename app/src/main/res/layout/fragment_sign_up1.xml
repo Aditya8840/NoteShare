@@ -25,43 +25,27 @@
             app:layout_constraintStart_toStartOf="parent" />
 
 
-
         <EditText
             android:id="@+id/firstname"
-            android:layout_width="140dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/green"
-            android:hint="First Name"
-            android:textColor="@color/white"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button"
             android:gravity="center"
+            android:hint="Name"
+            android:textColor="@color/black"
             android:textColorHint="@color/hint"
             app:layout_constraintBottom_toTopOf="@id/signupmail"
-            android:background="@drawable/custom_button"
-            app:layout_constraintEnd_toStartOf="@id/lastname"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textView2"/>
-
-
-        <EditText
-            android:id="@+id/lastname"
-            android:layout_width="140dp"
-            android:layout_height="60dp"
-            android:background="@drawable/custom_button"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:hint="Last Name"
-            android:textColorHint="@color/hint"
-            app:layout_constraintBottom_toBottomOf="@+id/firstname"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/firstname"
-            app:layout_constraintTop_toTopOf="@+id/firstname" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView2" />
+
 
         <EditText
             android:id="@+id/signupmail"
             android:layout_width="320dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:hint="Enter Your Edu mail"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:inputType="textEmailAddress"
             android:background="@drawable/custom_button"
             android:textColorHint="@color/hint"
@@ -74,9 +58,9 @@
         <EditText
             android:id="@+id/signuppassword"
             android:layout_width="320dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:hint="Enter Password"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:inputType="textPassword"
             android:background="@drawable/custom_button"
             android:textColorHint="@color/hint"
@@ -89,10 +73,10 @@
         <EditText
             android:id="@+id/signuppassword1"
             android:layout_width="320dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:hint="Confirm Password"
             android:inputType="textPassword"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:background="@drawable/custom_button"
             android:textColorHint="@color/hint"
             android:gravity="center"
@@ -105,7 +89,7 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/custom_button"
+            android:background="@drawable/custom_edittext"
             android:padding="10dp"
             android:paddingHorizontal="30dp"
             android:src="@drawable/arrow"

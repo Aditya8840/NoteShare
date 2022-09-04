@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/drawable/custom_button.xml" value="0.2265" />
+        <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/drawable/custom_edittext.xml" value="0.2265" />
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/font/font.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/font/inter.xml" value="0.284375" />
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/layout/fragment_signin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/layout/fragment_signup.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/layout/fragment_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/navne/AndroidStudioProjects/NoteSharecom/app/src/main/res/layout/post_item.xml" value="0.4" />
       </map>
     </option>
   </component>

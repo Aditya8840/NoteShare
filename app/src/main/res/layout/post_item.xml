@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bear" />
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vivek Tripathi"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inter"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="@id/profile_image"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/inter"
+            android:text="12 Aug 12:00AM"
+            app:layout_constraintBottom_toBottomOf="@+id/profile_image"
+            app:layout_constraintEnd_toEndOf="@id/person_name"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toBottomOf="@id/person_name" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="2"
+            android:text="testing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/date_time" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="108dp"
+            android:layout_height="98dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            app:srcCompat="@drawable/docs" />
+        
+        <TextView
+            android:id="@+id/topic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView7"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/download_notes"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            app:cardBackgroundColor="#FFC9BD"
+            app:cardCornerRadius="30dp"
+            android:elevation="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topic_name" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
